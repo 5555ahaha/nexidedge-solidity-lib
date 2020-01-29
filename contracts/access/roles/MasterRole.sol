@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "../../../openzeppelin-lib/access/Roles.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/access/Roles.sol";
 
 contract MasterRole {
     using Roles for Roles.Role;

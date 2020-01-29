@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "../../../openzeppelin-lib/access/roles/PauserRole.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/access/roles/PauserRole.sol";
 import "./MasterRole.sol";
 
 contract AdvancedPauserRole is PauserRole, MasterRole{

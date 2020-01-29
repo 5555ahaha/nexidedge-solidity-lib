@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 import "../../access/roles/PricerRole.sol";
 import '../../access/roles/MaintainerRole.sol';
-import '../nexidedge-lib/token/ERC20/IERC20Affordable.sol';
+import '../../token/ERC20/IERC20Affordable.sol';
 
 
 /**

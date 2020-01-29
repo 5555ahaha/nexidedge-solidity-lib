@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "../../../openzeppelin-lib/token/ERC721/ERC721.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721/ERC721.sol";
 
 
 contract ERC721BlankMinting is ERC721{
